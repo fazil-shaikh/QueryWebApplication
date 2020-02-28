@@ -1,0 +1,46 @@
+<!-- HTML 4.01 Strict -->
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<title>Form For Senators Database Query</title>
+<style type="text/css">
+   h2.heading {
+       font: bolder 150% times, serif;;
+       color: rgba(20, 6, 6, 0.781);
+   }
+</style>
+<head>
+   <hr>
+   <h1>Fazil Shaikh</h1>
+   <h3>COS 457<br/>Fall 2019</h3>
+   <hr>
+</head>
+
+<body bgcolor="#0F9873">
+   <h2 class="heading">Using JSP to retrieve database data with JDBC</font></h2>
+
+   <h4>Enter the query parameters below:</h4>
+<body style="font-family: Times" >
+   
+   <form method="get" action="resultQuery.jsp" >
+      Low Bound for Senator:
+      <input type="text" name="lsnm" placeholder="Akaka" size="32"></input><br/>
+      High Bound for Senator:
+      <input type="text" name="hsnm" placeholder="Wirth" size="32"></input><br/>
+      <br/>
+      Low Bound for Corporation:
+      <input type="text" name="lcnm" placeholder="Acme Mountain Gear" size="32"></input><br/>
+      High Bound for Corporation:
+      <input type="text" name="hcnm" placeholder="Wee Burnem Oil Fields" size="32"></input><br/>
+      <br/>
+      Low Bound for Date:
+      <input type="text" name="ldate" placeholder="yyyy-mm-dd" size="20"></input><br/>
+      High Bound for Date:
+      <input type="text" name="hdate" placeholder="yyyy-mm-dd" size="20"></input><br/>
+      <br/>
+      <input type="submit" value="Submit Query Parameters" ></input>
+   </form>
+   <hr>
+
+</body>
+</html>
